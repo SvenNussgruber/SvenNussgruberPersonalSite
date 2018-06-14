@@ -7,8 +7,13 @@
         <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
         <title>Sven Nussgruber</title>
 
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
         <!-- Bootstrap -->
         <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/custom.css" rel="stylesheet"/>
+        <link href="css/animations.css" rel="stylesheet">
 
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -19,7 +24,57 @@
     </head>
     <body>
 
-        <h1 class="text-center">Hi, I'm Sven Nussgruber</h1>
+        <div class="jumbotron text-center">
+            <img src="images/headshot-cropped.jpg" class="img-responsive img-thumbnail img-circle" width="300px" height="300px"/>
+            <h1 class="text-center" id="header-text">CS Student & Front-End Developer<span class="blink"> |</span></h1>
+            <p class="text-center">Hi, my name is Sven Nussgruber. I am a passionate computer science student,
+                <br> front-end developer, and video game enthusiast.</p>
+        </div>
+
+        <div class="about-me">
+            <div class="row">
+                <div class="col-md-3"></div>
+                <div class="col-md-2" style="padding-bottom: 25px;">
+                    <h2 class="text-center"><u>About Me</u></h2>
+                    <br>
+                    <i class="fas fa-user fa-3x icon-custom"></i>
+                </div>
+                <div class="col-md-1"></div>
+                <div class="col-md-4">
+                    <h3>Sven Nussgruber</h3>
+                    <p class="text-justify">
+                        I am currently a junior pursuing my Bachelors in Computer Science at Pace University in NYC.
+                        I enjoy learning new technologies and have taught myself front-end web development, including
+                        <span>HTML, CSS, and Javascript.</span> I am currently working on learning React and becoming a full-stack developer.
+                        I also have an intermediate level of experience in <span>Java.</span>
+                        <br><br>
+                        I still have a lot to learn, but am extremely excited to continuing developing and expanding my skill set.
+                    </p>
+                </div>
+                <div class="col-md-2"></div>
+            </div>
+        </div>
+
+        <div class="contact">
+            <h2 class="text-center">Let's Talk</h2>
+            <p class="text-center">
+                Feel free to contact me through email, over LinkedIn, or check out my Github profile.<br>
+                I am always looking for new opportunities to be a part of and to gain more experience.
+            </p>
+            <div class="row">
+                <div class="col-md-4"></div>
+                <div class="col-md-4 text-center">
+                    <a href="mailto:svennussgruber@gmail.com" target="_blank"><i class="fas fa-envelope fa-5x contact-icon"></i></a>
+                    <a href="https://www.linkedin.com/in/svennussgruber" target="_blank"><i class="fab fa-linkedin fa-5x contact-icon"></i></a>
+                    <a href="https://www.github.com/SvenNussgruber" target="_blank"><i class="fab fa-github fa-5x contact-icon"></i></a>
+                </div>
+                <div class="col-md-4"></div>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <p class="text-center">&copy; 2018 | Sven Nussgruber</p>
+        </footer>
 
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
