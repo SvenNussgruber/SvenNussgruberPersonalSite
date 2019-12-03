@@ -26,9 +26,9 @@
 
         <div class="jumbotron text-center">
             <img src="images/headshot-cropped.jpg" class="img-responsive img-thumbnail rounded-circle" width="300px" height="300px"/>
-            <h1 class="text-center" id="header-text">CS Student & Front-End Developer<span class="blink"> |</span></h1>
+            <h1 class="text-center" id="header-text">CS Student & Full Stack Developer<span class="blink"> |</span></h1>
             <p class="text-center">Hi, my name is Sven Nussgruber. I am a passionate computer science student,
-                <br> front-end developer, and video game enthusiast.</p>
+                <br> full stack developer, and video game enthusiast.</p>
         </div>
 
         <div class="about-me">
@@ -73,8 +73,12 @@
         </div>
 
         <footer class="footer">
-            <p class="text-center">&copy; 2019 | Sven Nussgruber</p>
+            <p class="text-center">&copy; <span id="year"></span> | Sven Nussgruber</p>
         </footer>
+
+        <script>
+            document.getElementById("year").innerHTML = new Date().getFullYear();
+        </script>
 
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
