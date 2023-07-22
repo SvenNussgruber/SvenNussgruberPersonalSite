@@ -11,6 +11,7 @@ body{
     background: linear-gradient(#01579B, #311B92);
     color: #F1F1F0;
     margin: 0;
+    border-radius: 0;
 }
 
 .img-thumbnail{
@@ -38,6 +39,11 @@ body{
     color: #01579B;
     font-weight: 600;
     letter-spacing: 1px;
+}
+
+.about-me a {
+    font-weight: 600;
+    text-decoration: none;
 }
 
 .icon-custom{
